@@ -1,7 +1,7 @@
 package com.company;
 
 public class ResourceStorage implements IResourceStorage{
-    private int value = 0;
+    private volatile int value = 0;
 
     @Override
     public int getValue() {

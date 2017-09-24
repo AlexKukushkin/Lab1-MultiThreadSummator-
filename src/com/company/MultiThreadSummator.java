@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class MultiThreadSummator extends Thread {
     private ResourceStorage storage;
+    private Scanner scanner;
+
 
     public MultiThreadSummator(ResourceStorage storage, Scanner scanner) {
         this.storage = storage;
         this.scanner = scanner;
     }
-
-    private Scanner scanner;
 
     @Override
     public void run() {
@@ -26,5 +26,3 @@ public class MultiThreadSummator extends Thread {
         scanner.close();
     }
 }
-
-//storage.isMarker()

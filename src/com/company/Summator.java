@@ -25,12 +25,12 @@ public class Summator implements ISummator {
 
     @Override
     public ResourceStorage getSum(String[] resources) {
-        this.setStorage(new ResourceStorage());
-        this.setThreads(new LinkedList<Thread>());
+        this.storage = new ResourceStorage();
+        this.threads = new LinkedList<>();
 
         createThreads(resources);
 
-        for(Thread thread: getThreads()) {
+        for(Thread thread: threads) {
             try {
                 thread.join();
             } catch (InterruptedException e) {
@@ -45,7 +45,7 @@ public class Summator implements ISummator {
             try {
                 Thread thread = getMultiThreadSummator(resource);
                 thread.start();
-                getThreads().add(thread);
+                threads.add(thread);
             }
             catch (Exception e) {
                 e.printStackTrace();
@@ -53,7 +53,7 @@ public class Summator implements ISummator {
         }
     }
     private Thread getMultiThreadSummator(String resource) throws IOException {
-        return  new MultiThreadSummator(getStorage(), FileReader.readFromFile(resource));
+        return new MultiThreadSummator(getStorage(), FileReader.readFromFile(resource));
     }
 }
 
