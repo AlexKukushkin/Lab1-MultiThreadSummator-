@@ -1,7 +1,7 @@
 package com.company;
 
 import java.io.IOException;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Summator implements ISummator {
@@ -26,7 +26,7 @@ public class Summator implements ISummator {
     @Override
     public ResourceStorage getSum(String[] resources) {
         this.storage = new ResourceStorage();
-        this.threads = new LinkedList<>();
+        this.threads = new ArrayList<>();
 
         createThreads(resources);
 
