@@ -7,20 +7,9 @@ import java.util.List;
 public class Summator implements ISummator {
     private List<Thread> threads;
     private ResourceStorage storage;
+
     private ResourceStorage getStorage() {
         return this.storage;
-    }
-
-
-    private List<Thread> getThreads() {
-        return threads;
-    }
-    private void setThreads(List<Thread> threads) {
-        this.threads = threads;
-    }
-
-    private void setStorage(ResourceStorage storage) {
-        this.storage = storage;
     }
 
     @Override
