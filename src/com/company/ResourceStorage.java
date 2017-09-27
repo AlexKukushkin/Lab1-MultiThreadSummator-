@@ -2,6 +2,8 @@ package com.company;
 
 public class ResourceStorage implements IResourceStorage{
     private volatile int value = 0;
+    private boolean storageFull = false;
+
 
     @Override
     public int getValue() {
@@ -9,8 +11,16 @@ public class ResourceStorage implements IResourceStorage{
     }
 
     @Override
+    public boolean getInfoAboutStorage(){
+        return storageFull = true;
+    }
+
+    @Override
     public synchronized void addValue(int value) {
         if(value < 0 || value % 2 != 0) {
+            return;
+        }
+        if(MultiThreadSummator.stopper){
             return;
         }
         this.value += value;
