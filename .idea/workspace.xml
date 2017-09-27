@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57f14b19-799b-403d-8c6b-f10f5372c6e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab1/com/company/FileReader.class" afterPath="$PROJECT_DIR$/out/production/Lab1/com/company/FileReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab1/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Lab1/com/company/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lab1.iml" afterPath="$PROJECT_DIR$/Lab1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/FileReader.java" afterPath="$PROJECT_DIR$/src/com/company/FileReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileReaderTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FileReaderTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/FileReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="447">
+              <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceStorageTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResourceStorageTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ResourceStorageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="340">
+              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/test/SummatorTest.java" />
         <option value="$PROJECT_DIR$/1.txt" />
         <option value="$PROJECT_DIR$/src/test/ResourceStorageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/FileReaderTest.java" />
       </list>
     </option>
   </component>
@@ -461,7 +457,7 @@
       <workItem from="1506434887221" duration="1815000" />
       <workItem from="1506439469053" duration="21973000" />
       <workItem from="1506492111946" duration="1803000" />
-      <workItem from="1506537270509" duration="5945000" />
+      <workItem from="1506537270509" duration="6855000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1506274081101</created>
@@ -491,13 +487,17 @@
       <option name="project" value="LOCAL" />
       <updated>1506488905779</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1. add stop threads condition &#10;2. JUnit tests (p.2)">
+      <created>1506543273280</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506543273281</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SummatorTest - 2017.09.27 at 08h 05m 18s.xml">
-      <configuration name="SummatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SummatorTest - 2017.09.27 at 08h 06m 50s.xml">
       <configuration name="SummatorTest" configurationId="JUnit" />
     </history-entry>
@@ -525,13 +525,15 @@
     <history-entry file="test_in_Lab1 - 2017.09.27 at 23h 13m 12s.xml">
       <configuration name="test in Lab1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="test_in_Lab1 - 2017.09.27 at 23h 19m 05s.xml">
+      <configuration name="test in Lab1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79398000" />
+    <option name="totallyTimeSpent" value="80308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -541,7 +543,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5974643" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5911252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -601,7 +603,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="delete unnecessary methods" />
     <MESSAGE value="1. add stop threads condition &#10;2. JUnit tests (p.1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. add stop threads condition &#10;2. JUnit tests (p.1)" />
+    <MESSAGE value="1. add stop threads condition &#10;2. JUnit tests (p.2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. add stop threads condition &#10;2. JUnit tests (p.2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -956,16 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/FileReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/SummatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1014,8 +1007,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ResourceStorageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="340">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/FileReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
