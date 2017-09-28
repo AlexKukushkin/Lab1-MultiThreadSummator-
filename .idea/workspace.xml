@@ -457,7 +457,7 @@
       <workItem from="1506434887221" duration="1815000" />
       <workItem from="1506439469053" duration="21973000" />
       <workItem from="1506492111946" duration="1803000" />
-      <workItem from="1506537270509" duration="6855000" />
+      <workItem from="1506537270509" duration="6928000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1506274081101</created>
@@ -494,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506543273281</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1. add stop threads condition &#10;2. JUnit tests (p.2)">
+      <created>1506545818576</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1506545818576</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -530,7 +537,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80308000" />
+    <option name="totallyTimeSpent" value="80381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
